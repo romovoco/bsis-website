@@ -15,14 +15,15 @@
         border: none;
         outline: none;
         background-color: transparent;
-        color: black; 
+        color: black;
         cursor: pointer;
-        padding: 10px;
-        border-radius: 50%;
-        font-size: 30px; 
+        padding: 15px;
+        font-size: 30px;
         display: none;
         transition: opacity 0.3s ease;
         text-align: center;
+        width: 50px;
+        height: 50px;
       }
 
       #scrollToTopBtn:hover {
@@ -39,7 +40,6 @@
     <button id="scrollToTopBtn" title="Go to top"></button>
 
     <script>
-      // Scroll-to-Top Button JavaScript
       const scrollBtn = document.getElementById("scrollToTopBtn");
 
       window.onscroll = function () {
